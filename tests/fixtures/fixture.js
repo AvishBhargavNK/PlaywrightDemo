@@ -9,6 +9,5 @@ const createTestFunction = (PageClass) => async ({page}, use) => {
 export const test = base.extend({
     ecomLoginPage: createTestFunction(EcomLoginPage),
     ecomChangePage: createTestFunction(EcomChangePage),
-    ru
   });
   
