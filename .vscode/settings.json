@@ -1,0 +1,8 @@
+{
+    "cucumber.glue": ["tests/steps/*.js"]
+}
+
+
+// {
+//     "cucumberautocomplete.steps": ["tests/steps/*.js"]
+// }

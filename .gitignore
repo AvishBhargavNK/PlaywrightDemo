@@ -1,0 +1,10 @@
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/ruvy.feature.spec.js/
+/ruvy.feature/
+/ruvyLoginObj.js/
+/ruvyLoginsteps.js/
+/uploads/
