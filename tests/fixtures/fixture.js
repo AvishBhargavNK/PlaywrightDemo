@@ -1,6 +1,6 @@
 import { test as base} from 'playwright-bdd';
 import * as Pages from './pages';
-const {EcomLoginPage,EcomChangePage,RuvyAdminLoginPage} = Pages;
+const {EcomLoginPage,EcomChangePage} = Pages;
 
 const createTestFunction = (PageClass) => async ({page}, use) => {
      await use(new PageClass(page));
@@ -9,6 +9,6 @@ const createTestFunction = (PageClass) => async ({page}, use) => {
 export const test = base.extend({
     ecomLoginPage: createTestFunction(EcomLoginPage),
     ecomChangePage: createTestFunction(EcomChangePage),
-    ruvyAdminLoginPage: createTestFunction(RuvyAdminLoginPage)
+    ru
   });
   
