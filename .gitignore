@@ -3,8 +3,4 @@ node_modules/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-/ruvy.feature.spec.js/
-/ruvy.feature/
-/ruvyLoginObj.js/
-/ruvyLoginsteps.js/
-/uploads/
+
